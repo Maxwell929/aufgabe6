@@ -27,8 +27,6 @@ double nettoRechner(double gewinn, vector<double> steuersaetze, vector<double> b
     bereichsgrenzen.pop_back();
 
     return nettoRechner(gewinn, steuersaetze, bereichsgrenzen);
-
-
 }
 
 
