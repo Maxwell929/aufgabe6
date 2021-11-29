@@ -33,12 +33,11 @@ double nettoRechner(double gewinn, vector<double> steuersaetze, vector<double> b
 
 
 int main() {
-    
-    vector<double> vectSteuersaetzte{0.00, 0.25, 0.35, 0.42, 0.48, 0.50, 0.55};
-    vector<double> vectBereichsgrenze{0.00, 11000.00, 18000, 31000, 60000, 90000, 1000000};
-    
-    
 
-    cout << nettoRechner(40000, vectSteuersaetzte, vectBereichsgrenze) << endl;
+    const vector<double> vectSteuersaetzte{0.00, 0.25, 0.35, 0.42, 0.48, 0.50, 0.55};
+    const vector<double> vectBereichsgrenze{0.00, 11000.00, 18000, 31000, 60000, 90000, 1000000};
+
+
+    cout << nettoRechner(80000, vectSteuersaetzte, vectBereichsgrenze) << endl;
 
 }
