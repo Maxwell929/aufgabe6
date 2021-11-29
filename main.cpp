@@ -7,7 +7,7 @@ double nettoRechner(double gewinn, vector<double> steuersaetze, vector<double> b
 
     static double summeSteuer{0};
     double steuer{0};
-    double freibetrag = 11000.00;
+    double freibetrag{11000.00};
     int sizeSteuersaetze = size(steuersaetze) - 1;
     int sizeBereichsgrenzen = size(bereichsgrenzen) - 1;
 
@@ -38,6 +38,6 @@ int main() {
     const vector<double> vectBereichsgrenze{0.00, 11000.00, 18000, 31000, 60000, 90000, 1000000};
 
 
-    cout << nettoRechner(80000, vectSteuersaetzte, vectBereichsgrenze) << endl;
+    cout << nettoRechner(1500000, vectSteuersaetzte, vectBereichsgrenze) << endl;
 
 }
