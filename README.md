@@ -1,3 +1,3 @@
 # aufgabe6
 
-Simpler Gehaltsrechner zum errechnen des Nettogehalts
+Simpler Gehaltsrechner zum Errechnen des Nettogehalts
